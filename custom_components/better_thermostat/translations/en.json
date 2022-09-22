@@ -9,8 +9,8 @@
                                 "thermostat": "The real themostat",
                                 "temperature_sensor": "Temperature sensor",
                                 "window_sensors": "Window sensor",
-                                "off_temperature": "The outdoor temperature when the thermostat turn off",
-                                "window_off_delay": "Delay before the thermostat turn off when the window is open and on when the window is closed",
+                                "off_temperature": "The outdoor temperature when the thermostat turns off",
+                                "window_off_delay": "Delay before the thermostat turns off when the window is open and back on when the window is closed",
                                 "outdoor_sensor": "If you have an outdoor sensor, you can use it to get the outdoor temperature",
                                 "valve_maintenance": "If your thermostat has no own maintenance mode, you can use this one",
                                 "local_calibration": "The local calibration entity of your thermostat",
@@ -28,11 +28,11 @@
             "error": {
                     "failed": "something went wrong.",
                     "no_name": "Please enter a name.",
-                    "no_off_mode": "You device is very special and has no off mode :(\nIt work anyway, but you have to create a automation to fit your specials based on the device events"
+                    "no_off_mode": "You device is very special and has no off mode :(\nIt work anyway, but you have to create an automation to fit your specials based on the device events"
             },
             "abort": {
-                    "single_instance_allowed": "Only a single Thermostat for each real is allowed.",
-                    "no_devices_found": "No thermostat entity found, make sure you have a climate entity in your home assistant"
+                    "single_instance_allowed": "Only a single Better Thermostat for each real one is allowed.",
+                    "no_devices_found": "No thermostat entity found, make sure you have a climate entity in your Home Assistant"
             }
     },
     "options": {
@@ -42,8 +42,8 @@
                         "data": {
                             "temperature_sensor": "Temperature Sensor",
                             "window_sensors": "Window Sensor",
-                            "off_temperature": "The outdoor temperature when the thermostat turn off",
-                            "window_off_delay": "Delay before the thermostat turn off when the window is open and on when the window is closed",
+                            "off_temperature": "The outdoor temperature when the thermostat turns off",
+                            "window_off_delay": "Delay before the thermostat turns off when the window is open and back on when the window is closed",
                             "outdoor_sensor": "If you have an outdoor sensor, you can use it to get the outdoor temperature",
                             "valve_maintenance": "If your thermostat has no own maintenance mode, you can use this one",
                             "local_calibration": "The local calibration entity of your thermostat",
